@@ -6,6 +6,7 @@ import java.util.Scanner;
 public class SetOne {
 
     public static void main(String[] args){
+        //Run all the code at once
         q1();
         q2();
         q3();
@@ -15,19 +16,23 @@ public class SetOne {
     }
 
     public static void q1(){
+        //Define Scanner
         Scanner in = new Scanner(System.in);
 
         double total = 0;
-
+        
+        //Loop 3 times because I don't feel like typing
         for (int i = 0; i < 3; i++){
             System.out.print(String.format("Enter the %d Number: ", i+1));
             total += in.nextDouble();
         }
-
+        
+        //Print Average
         System.out.println(String.format("The Average of all the number is %f", total/3));
     }
 
     public static void q2(){
+        //I hope I don't have to explain this
         Scanner in = new Scanner(System.in);
 
         System.out.print("Enter Miles: ");
@@ -37,6 +42,7 @@ public class SetOne {
     }
 
     public static void q3(){
+        //This ones is pretty simple
         Scanner in = new Scanner(System.in);
 
         System.out.print("Enter a Number of Hours: ");
@@ -49,24 +55,28 @@ public class SetOne {
     }
 
     public static void q4(){
+        //Okay this one is the longest
         Scanner in = new Scanner(System.in);
-        NumberFormat currency = NumberFormat.getCurrencyInstance();
-
+        NumberFormat currency = NumberFormat.getCurrencyInstance();//Also I use this because I googled it and it works
+        
+        //Good'Ol Prompt
         System.out.print("Enter the number of cookies baked: ");
         int numberOfCookies = in.nextInt();
-
+        
+        //All the Math
+        
         int boxes = (int) Math.ceil(numberOfCookies / 12);
 
         int cartons = (int) Math.ceil(boxes / 24);
 
         int leftOverBoxes = boxes - (cartons * 24);
 
-        System.out.println(((boxes - leftOverBoxes) * 12));
-
         int leftOverCookies = numberOfCookies - (boxes * 12);
 
         double profit = ((boxes - leftOverBoxes) * 1.14) + (leftOverBoxes * 0.57);
-
+    
+        //Display all the results
+        
         System.out.println(String.format("If %d Cookies were baked you would end up with:", numberOfCookies));
         System.out.println();
         System.out.println(String.format("Cartons: %d", cartons));
@@ -77,6 +87,8 @@ public class SetOne {
     }
 
     public static void q5(){
+        
+        //RNG Lock Combo 0-59 Inclusive
 
         String finalCombination = "";
 
@@ -89,6 +101,7 @@ public class SetOne {
     }
 
     public static void q6() {
+        //If I am Being Honest I stole this code from another one of my programs
         Scanner in = new Scanner(System.in);
 
         System.out.print("Enter the first Points X Coordinate: ");
