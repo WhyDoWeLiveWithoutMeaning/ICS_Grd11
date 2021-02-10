@@ -9,20 +9,20 @@ public class Person {
     private String lastName;
     private LocalDate dateOfBirth;
 
-    Person(){
+    public Person(){
         firstName = "Unknown";
         lastName = "Unknown";
         dateOfBirth = LocalDate.now();
     }
 
-    Person(String fName, String lName, String dOB){
+    public Person(String fName, String lName, String dOB){
         DateTimeFormatter dateTimeFormatter = DateTimeFormatter.ofPattern("dd/MM/yyyy");
         firstName = fName;
         lastName = lName;
         dateOfBirth = LocalDate.parse(dOB, dateTimeFormatter);
     }
 
-    Person(String fName, String lName, LocalDate dOB){
+    public Person(String fName, String lName, LocalDate dOB){
         firstName = fName;
         lastName = lName;
         dateOfBirth = dOB;
