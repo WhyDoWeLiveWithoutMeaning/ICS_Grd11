@@ -69,9 +69,9 @@ public class SetOne {
 
         int cartons = (int) Math.ceil(boxes / 24);
 
-        int leftOverBoxes = boxes - (cartons * 24);
+        int leftOverBoxes = boxes % 24;
 
-        int leftOverCookies = numberOfCookies - (boxes * 12);
+        int leftOverCookies = numberOfCookies % 12;
 
         double profit = ((boxes - leftOverBoxes) * 1.14) + (leftOverBoxes * 0.57);
     
