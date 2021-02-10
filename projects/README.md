@@ -12,3 +12,4 @@
   - [Input Output](https://github.com/WhyDoWeLiveWithoutMeaning/ICS_Grd11/tree/main/projects/JavaInputOutput)
   - [Problem Sets](https://github.com/WhyDoWeLiveWithoutMeaning/ICS_Grd11/tree/main/projects/ProblemSet)
   - [Method Overloading](https://github.com/WhyDoWeLiveWithoutMeaning/ICS_Grd11/tree/main/projects/Dice)
+  - [Object Oriented Programming](https://github.com/WhyDoWeLiveWithoutMeaning/ICS_Grd11/tree/main/projects/PersonAssignment)
