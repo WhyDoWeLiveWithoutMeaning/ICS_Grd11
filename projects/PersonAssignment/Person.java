@@ -3,7 +3,7 @@ package eric.projects.PersonAssignment;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 
-public class Person {
+public class Person implements Comparable<Person>{
 
     private String firstName;
     private String lastName;
@@ -57,7 +57,16 @@ public class Person {
         return String.format("First Name: %s | Last Name: %s | Date Of Birth: %s", firstName, lastName, dateOfBirth.toString());
     }
 
-    public boolean equals(Person user){
+    @Override
+    public boolean equals(Object o){
+
+        if(this == o)
+            return true;
+        if(!(o instanceof Person))
+            return false;
+
+        Person user = (Person) o;
+
         if (user.getFirstName().equals(firstName)){
             if (user.getLastName().equals(lastName)){
                 if(user.getDateOfBirth().equals(dateOfBirth)){
@@ -68,6 +77,7 @@ public class Person {
         return false;
     }
 
+    @Override
     public int compareTo(Person user){
         int firstNameCompare = firstName.compareTo(user.getFirstName());
         if (firstNameCompare == 0){
@@ -76,20 +86,11 @@ public class Person {
                 int dateOfBirthCompare = dateOfBirth.compareTo(user.getDateOfBirth());
                 if (dateOfBirthCompare == 0) {
                     return 0;
-                } else if (dateOfBirthCompare > 0){
-                    return 1;
-                } else {
-                    return -1;
                 }
-            } else if (lastNameCompare > 0){
-                return 1;
-            } else {
-                return -1;
+                return dateOfBirthCompare;
             }
-        } else if (firstNameCompare > 0){
-            return 1;
-        } else {
-            return -1;
+            return lastNameCompare;
         }
+        return firstNameCompare;
     }
 }
