@@ -4,7 +4,13 @@ import java.util.Scanner;
 
 public class SetThree {
     public static void main(String[] args){
+        q1();
+        q2();
+        q3();
+        q4();
+        q5();
         q6();
+        q7();
     }
 
     public static void q1(){
