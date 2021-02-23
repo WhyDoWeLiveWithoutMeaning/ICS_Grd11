@@ -153,6 +153,24 @@ Enter handle length:  4
 
 ![Picture of Trident](https://i.imgur.com/CQZg2pI.png)
 
+## Extra Looping
 
+### 1. Multiplication Table
+
+Use loops to generate a multiplication table for numbers 1 to 10. The table should look like this:
+
+![Multiplication Table](https://i.imgur.com/uFSipD9.png)
+
+### 2. Number Analysis
+
+Create a program that will allow a user to input any integer. Have your program count and output the number of 0’s, odd numbers, and even numbers. For example:
+
+![Example](https://i.imgur.com/tTPt2OH.png)
+
+### 3. Prime Numbers
+
+Create a program that will allow a user to enter any integer. Your program should then print a message stating the number entered IS or IS NOT a prime number.
+
+![Example](https://i.imgur.com/OyOCJMe.png)
 
 
