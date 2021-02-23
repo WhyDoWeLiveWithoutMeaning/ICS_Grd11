@@ -96,3 +96,63 @@ Your new salary will be $58240
 
 
 ### 6. Design and implement an application that reads an integer value representing a year input by the user. The purpose of the program is to determine if the year is a leap year (and therefore has 29 days in February) in the Gregorian calendar. A year is a leap year if it is divisible by 4, unless it is also divisible by 100 but not 400. For example, the year 2003 is not a leap year, but 2004 is. The year 1900 is not a leap year because it is divisible by 100, but the year 2000 is a leap year because even though it is divisible by 100, it is also divisible by 400. Produce an error message for any input value less than 1582 (the year the Gregorian calendar was adopted).
+
+## Problem Set 3
+
+### 1. Write a program that will ask the user to enter a number. Continue asking for numbers until the user enters 0 as the number.
+
+
+### 2. Modify your Hi/Low guessing game from the previous problem set so that you must continue to guess numbers until you get the number correct. When the user guesses the correct number, tell them how many guesses it took.
+
+
+### 3. Write a program that will ask the user for a number. Print all the numbers from 1 to the number entered.
+
+
+### 4. Write a program that will ask a user for a number from 1-1000. Have the program print the sum of all the numbers from 1 to the entered number. For example; if the user entered 5 the computer would print 15, (1+2+3+4+5).
+
+
+### 5. Write a program that will ask the user to enter a number and then have the computer print the sum of the digits in the number. For example; if the user typed 127, the computer would print 10 (1+2+7).
+
+
+### 6. Have the tortoise and hare complete a race of x units long. Use a random number to determine the distance each travels per unit time.
+
+Tortoise:
+  - 50% 3 squares ahead
+  - 20% 6 squares back
+  - 30% 1 square ahead
+
+
+Hare: 
+ - 20% no move
+ - 20% 9 squares ahead
+ - 10% 12 squares back
+ - 30% 1 square ahead
+ - 20% 2 squares back
+
+
+Include fun commentary on the race.
+
+
+### 7. A trident is a fork with three tines (prongs). A simple picture of a trident can be made from asterisks and spaces.
+
+![Picture of Trident](https://i.imgur.com/CQZg2pI.png)
+
+
+#### In this example, each tine is a vertical column of 3 asterisks. Each tine is separated by 2 spaces. The handle is a vertical column of 4 asterisks below the middle tine.
+Tridents of various shapes can be drawn by varying three parameters: t, the height of the tines, s, the spaces between tines, and h, the height of the handle. For the example above we have t = 3, s = 2, and h = 4. You are to write an interactive program to print a trident. Your program should accept as input t, s, and h, and print the appropriate trident. You can assume that t,s,h are each at least 0 and not larger than 10.
+
+
+Sample Session – User input in italics
+
+
+Enter tine length:  3
+
+Enter tine spacing:  2
+
+Enter handle length:  4
+
+![Picture of Trident](https://i.imgur.com/CQZg2pI.png)
+
+
+
+
