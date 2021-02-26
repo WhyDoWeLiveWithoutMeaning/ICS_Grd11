@@ -10,6 +10,7 @@
   - [Hello World](https://github.com/WhyDoWeLiveWithoutMeaning/ICS_Grd11/tree/main/projects/HelloWorld)
   - [Variables](https://github.com/WhyDoWeLiveWithoutMeaning/ICS_Grd11/tree/main/projects/VariablesAssignment)
   - [Input Output](https://github.com/WhyDoWeLiveWithoutMeaning/ICS_Grd11/tree/main/projects/JavaInputOutput)
+  - [Looping](https://github.com/WhyDoWeLiveWithoutMeaning/ICS_Grd11/tree/main/projects/QuizAssignment)
   - [Problem Sets](https://github.com/WhyDoWeLiveWithoutMeaning/ICS_Grd11/tree/main/projects/ProblemSet)
   - [Method Overloading](https://github.com/WhyDoWeLiveWithoutMeaning/ICS_Grd11/tree/main/projects/Dice)
   - [Object Oriented Programming](https://github.com/WhyDoWeLiveWithoutMeaning/ICS_Grd11/tree/main/projects/PersonAssignment)
