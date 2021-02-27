@@ -173,4 +173,25 @@ Create a program that will allow a user to enter any integer. Your program shoul
 
 ![Example](https://i.imgur.com/OyOCJMe.png)
 
+## Java Practice Problems
 
+### 1. Write a program that prints the numbers from 10 to 100 by 10’s using a “while” loop.
+
+### 2. Write a program that prints the numbers from 10 to 100 by 10’s using a “for” loop.
+
+### 3. Write a program that askes the user for a single letter. Print out whether the letter is a consonant or a vowel.
+
+### 4. Write a program in Java to display the cube of the number up to a given integer.
+
+Example:
+  - Input number of terms : 4
+
+
+Expected Output :
+  - Number is : 1 and cube of 1 is : 1
+  - Number is : 2 and cube of 2 is : 8
+  - Number is : 3 and cube of 3 is : 27
+  - Number is : 4 and cube of 4 is : 64
+
+
+### 5. Write a program that will ask the user to enter a single word command. Keep asking for commands until the user enters “quit” as the command.
