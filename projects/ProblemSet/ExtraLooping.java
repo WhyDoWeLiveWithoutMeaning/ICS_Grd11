@@ -41,16 +41,19 @@ public class ExtraLooping {
         if (number <= 1) {
             System.out.println("It is not Prime");
             return;
+        } else if (number == 2) {
+            System.out.println("It is Prime");
+            return;
         }
         long factors = 0;
 
-        for (long i = 1; i < Math.sqrt(number) + 1; i++){
+        for (long i = 2; i < Math.sqrt(number) + 1; i++){
             if (number % i == 0){
                 factors++;
             }
         }
-        if (factors == 1){
-            System.out.println("It is a Prime Number");
+        if (factors == 0){
+            System.out.println("It is Prime");
         } else {
             System.out.println("It is not Prime");
         }
