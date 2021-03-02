@@ -38,7 +38,7 @@ public class ExtraLooping {
     public static void q3(){
         Scanner in = new Scanner(System.in);
         long number = in.nextLong();
-        if (number <= 0) {
+        if (number <= 1) {
             System.out.println("It is not Prime");
             return;
         }
