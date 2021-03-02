@@ -37,10 +37,14 @@ public class ExtraLooping {
 
     public static void q3(){
         Scanner in = new Scanner(System.in);
-        int number = in.nextInt();
-        int factors = 0;
+        long number = in.nextLong();
+        if (number <= 0) {
+            System.out.println("It is not Prime");
+            return;
+        }
+        long factors = 0;
 
-        for (int i = 1; i < (int) number/2; i++){
+        for (long i = 1; i < Math.sqrt(number) + 1; i++){
             if (number % i == 0){
                 factors++;
             }
