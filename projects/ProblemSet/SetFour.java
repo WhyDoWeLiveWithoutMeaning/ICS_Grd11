@@ -34,7 +34,7 @@ public class SetFour {
     }
 
     public static double areaOfCircle(double radius){
-        return Math.pow(Math.PI * radius, 2);
+        return Math.PI * Math.pow(radius, 2);
     }
 
     public static int randomNum(){
