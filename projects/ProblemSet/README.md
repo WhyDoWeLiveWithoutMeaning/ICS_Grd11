@@ -153,6 +153,40 @@ Enter handle length:  4
 
 ![Picture of Trident](https://i.imgur.com/CQZg2pI.png)
 
+## Problem Set 4
+
+### 1. Write a method that will print your address when called.
+
+### 2. Write a method called lol() that will print the following when called:
+
+*      *****  *
+*      *   *  *
+*      *   *  *
+*      *   *  *
+*****  *****  *****
+
+### 3. Write a method called greetings() that will take a String as a parameter. The String should represent the name of the person you are greeting. For example, calling greetings(“Earl”) should print the following:
+
+Greetings Earl! It is a pleasure to meet you!
+
+### 4. Write a method called repeat() that takes a String and an integer as parameters. The method should print the String as many times as specified by the integer. For example, if you called repeat(“Hello”,5) your output should be:
+
+Hello
+Hello
+Hello
+Hello
+Hello
+
+### 5. Write a method called trueOrFalse() that returns a boolean value chosen at random. (use Math.random() to generate the randomness)
+
+### 6. Write a method called areaOfCircle(). Have the method accept a double parameter representing the radius of a circle. Have the method return the area of the circle with the given area.
+
+### 7. Write a method that will return a random number from 1 to 6.
+
+### 8. Write a method that will accept an integer parameter. The parameter determines how many numbers to add to a sum. The method should return the sum of random numbers from 1-6 based on the parameter value. (e.g. if the parameter is 3, return the sum of 3 random numbers from 1-6)
+
+### 9. Write a method similar to the above method, but have the method accept a second parameter for the maximum value. The method should use 1-max as the range for the numbers. (e.g. if the method is sent 3 and 10, the method should return the sum of 3 random numbers from 1-10)
+
 ## Extra Looping
 
 ### 1. Multiplication Table
