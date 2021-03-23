@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 public class ArrayIntroAssignment {
     public static void main(String[] args){
         q1();
@@ -45,12 +43,21 @@ public class ArrayIntroAssignment {
         }
         System.out.println();
 
-        //Print highest and lowest values
-        Arrays.sort(intArr);
-
-        System.out.println(intArr[intArr.length-1]);
-        System.out.println(intArr[0]);
-
+        //Print highest and lowest value
+        int highest = intArr[0];
+        for(int i = 1; i < intArr.length; i++){
+            if (intArr[i] > highest){
+                highest = intArr[i];
+            }
+        }
+        System.out.println(highest);
+        int lowest = intArr[0];
+        for(int i = 1; i < intArr.length; i++){
+            if (intArr[i] < lowest){
+                lowest = intArr[i];
+            }
+        }
+        System.out.println(lowest);
         //calculate and print average of all values.
         double average = 0;
 
